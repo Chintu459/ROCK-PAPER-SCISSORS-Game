@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.emoj-img{
+    height: 120px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 230px;
+    height: 230px;
+    border-radius: 115px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.result{
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.score{
+    margin-top: 40px;
+}
+.tex{
+    font-size: 30px;
+}
+.reset-button
+{
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.score-res{
+    font-size: 20px;
+}

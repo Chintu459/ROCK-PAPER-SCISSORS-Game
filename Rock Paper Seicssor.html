@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RockPaperScissors</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css'  href='Rock-Paper-Scissors.css'>
+   <script src="Rock-Paper-Scissors.js"></script>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!--Rules of Rock Paper Scissors :-
+    -----------------------------------
+    1.Rock beats Scissors.
+    2.Paper beats Rock.
+    3.Scissors beats Paper.
+
+    -->
+    <p class="title">Rock Paper Scissors</p>
+    <button onclick="
+    playMove('Rock');
+    " class="move-button">
+    <img src="D:\sree.html\images.html\rock-emoji-1.png" class="emoj-img" alt="">
+
+</button>
+
+    <button onclick="
+    playMove('Paper');
+    " class="move-button">
+    <img src="D:\sree.html\images.html\paper-emoji.png" alt="" class="emoj-img">
+  </button>
+
+    <button onclick="
+    playMove('Scissors');
+    " class="move-button">
+    <img src="D:\sree.html\images.html\scissors-emoji.png" class="emoj-img">
+    </button>
+    <p class="js-result result"></p>
+    <p class="js-move tex">
+        
+    </p>
+    <p class="js-score  score"></p>
+
+    <button onclick="
+
+    score.Wins=0;
+    score.Losses=0;
+    score.Ties=0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+    "
+    class="reset-button">Reset Score</button>
+
+    
+</body>
+</html>
